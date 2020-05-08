@@ -1,0 +1,148 @@
+.menu{
+    display: none;
+    width: 100%;
+    background-color: var(--color-dark);
+    margin-bottom: 28px;
+    z-index: 50;
+    box-sizing: border-box;
+    position: relative;
+    @media (min-width: 1024px) {
+        height: 40px;
+        display: block;
+    }
+    .centrado{
+        max-width: 980px;
+        margin: auto;
+    }
+    
+    }
+    .menu-link{ 
+        font-size: 15px;
+        font-weight: 700;
+        list-style: none;
+        box-sizing: border-box;
+        color: var(--color-accent);
+        height: auto;
+        cursor: pointer;
+        @media (min-width: 640px) {
+            float: left;
+            width: 100px;
+            padding: 0 1.5em;
+            margin-top: 10px;
+            border-right: 1px solid grey;
+            &:hover{
+                .sub-menu{
+                    display: block;
+                }
+        }
+        
+        
+    }
+}
+
+.shop{
+  @media (min-width:640px) {
+    float: right;
+    color: white;
+     margin-top: 10px;
+      }
+ }
+
+
+    .sub-menu{
+        width: 445px;
+        position: absolute;
+        background: white;
+        padding: 1em 0;
+        height: 300px;
+        z-index: 50;
+        display: none;
+        bottom: -350px;
+        border: 1px solid grey;
+        left: 0;
+        .ctn-menu{
+            display: flex;
+            height: 280px;
+        }
+    }
+    .sub-menu-data{
+        margin-right: 2em;
+        padding: 0 2em;
+        height: auto;
+        border-right: 2px solid grey;
+         text-align: left; 
+        a{
+           display: block;
+           color: $color-card-title;
+           line-height: 2em;
+           &.active{
+               background: var(--color-accent);
+               text-align: center;
+               text-transform: uppercase;
+               font-weight: 700;
+           }
+        }
+    }
+    .card-menu{
+        
+        color: $color-card-title;
+        text-transform: uppercase;
+        &-img{
+            border: 1px solid grey;
+            margin-bottom: .5em; 
+            width: 185px;
+            img{
+                width: 100%;
+            }
+        
+        } 
+        .card-price{
+            color: red;
+        }
+    }
+
+
+ // Drop menu
+
+
+.drop{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: var(--color-dark);
+    z-index: 100;
+    top: 65px;
+    @media (min-width:1024px) {
+        display: none;
+    }
+    .down{
+        padding-left: 2em;
+        width: 80%;
+        padding-top: 2em;
+        margin: auto;
+        height: 800px;
+    }
+    .drop-menu{
+        line-height: 2em;
+        margin-bottom: 1em;
+    }
+    .drop-submenu{
+        width: 100%;
+        padding-top: 1em;
+        border-top: 1px solid grey;
+        line-height: 2em;
+    }
+}
+
+.down{
+    display: none;
+}
+
+.toggle{
+    width: 400px;
+    height: 100%;
+    border-radius: 0;
+    nav{
+        display: block;
+    }
+}

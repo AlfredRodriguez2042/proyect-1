@@ -1,0 +1,55 @@
+
+ //header
+
+.helper{
+    list-style: none;
+    cursor: pointer;
+    @media (min-width: 640px) {
+     margin-top: 1em;
+     padding: 0 1em;
+     &:nth-child(3){
+         border-left: 1px solid black;
+         padding-right: 0;
+     }
+    }
+ }
+ .icon-search{
+    position: absolute;
+    right: 40px;
+    background: var(--color-accent);
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    @media (min-width:1024px) {
+        width: 36px;
+        height: 36px;
+        padding-top: 9px;
+    }
+}
+
+ //menu drop
+ 
+ .drop-link{
+     list-style: none;
+     cursor: pointer;
+     color: white;
+ }
+ .icon-menu{
+    display: block;
+    color: white;
+    margin: 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon-basket-2{
+    color: var(--color-accent);
+}
+
+//body
+.icon-angle-circled-down{
+    margin-left: 60px;
+    color: white;
+}

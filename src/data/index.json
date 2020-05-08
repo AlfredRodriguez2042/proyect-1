@@ -1,0 +1,53 @@
+{
+  "Products": [
+    {
+      "title": "Bota­n",
+      "price": 800.44,
+      "category": "Botines",
+      "image": "http://placehold.it/225x225",
+      "brand": "nike"
+    },
+    {
+      "title": "Ojotas",
+      "price": 300.99,
+      "category": "Ojotas",
+      "image": "http://placehold.it/225x225",
+      "brand": "adidas"
+    },
+    {
+      "title": "Zapatillas",
+      "price": 1120.0,
+      "category": "Calzado",
+      "image": "http://placehold.it/225x225",
+      "brand": "puma"
+    },
+    {
+      "title": "Short",
+      "price": 320.44,
+      "category": "Vestimenta",
+      "image": "http://placehold.it/225x225",
+      "brand": "nike"
+    },
+    {
+      "title": "Pantalon",
+      "price": 360.44,
+      "category": "Natacion",
+      "image": "http://placehold.it/225x225",
+      "brand": "nike"
+    },
+    {
+      "title": "Ojotas",
+      "price": 300.99,
+      "category": "Ojotas",
+      "image": "http://placehold.it/225x225",
+      "brand": "adidas"
+    },
+    {
+      "title": "Zapatillas",
+      "price": 1120.0,
+      "category": "Calzado",
+      "image": "http://placehold.it/225x225",
+      "brand": "puma"
+    }
+  ]
+}
